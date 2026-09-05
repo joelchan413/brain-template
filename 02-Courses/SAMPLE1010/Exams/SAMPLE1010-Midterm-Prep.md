@@ -30,7 +30,7 @@ priority: high
 
 ## Core concept checklist
 
-- [ ] [[Sample-Core-Concept]] — Definitions, properties, and trade-offs.
+- [ ] [[Sample-Core-Concept]], Definitions, properties, and trade-offs.
 
 ---
 

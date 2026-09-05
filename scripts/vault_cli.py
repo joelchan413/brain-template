@@ -20,6 +20,7 @@ from generate_concept_stubs import create_stubs
 from anki_exporter import scan_and_export_anki
 from weekly_review import generate_weekly_review
 from daily_shutdown import run_shutdown
+from unslop import run_unslop_audit
 
 def handle_daily_note_creation(vault_root: Path, target_date_str: str) -> None:
     """Scaffolds a daily note from Template-Daily-Note.md if it doesn't exist."""
@@ -127,6 +128,10 @@ def main():
     shutdown_parser.add_argument("--date", default=None, help="Target date YYYY-MM-DD (defaults to today).")
     shutdown_parser.add_argument("--push", action="store_true", help="Automatically commit and push changes to GitHub.")
 
+    # 8. Unslop
+    unslop_parser = subparsers.add_parser("unslop", help="Audit or clean markdown notes for AI slop, em dashes, and emojis.")
+    unslop_parser.add_argument("--inplace", action="store_true", help="Automatically clean em dashes and heading emojis.")
+
     args = parser.parse_args()
     vault_root = Path(args.vault).resolve()
 
@@ -134,7 +139,9 @@ def main():
         parser.print_help()
         sys.exit(0)
 
-    if args.command == "health":
+    if args.command == "unslop":
+        run_unslop_audit(vault_root, inplace=args.inplace)
+    elif args.command == "health":
         scan_vault(str(vault_root))
     elif args.command == "stats":
         handle_vault_stats(vault_root)

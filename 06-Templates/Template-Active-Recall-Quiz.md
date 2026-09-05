@@ -8,7 +8,7 @@ last_reviewed: {{date}}
 mastery_score: 0% # 0% - 100%
 ---
 
-# ⚡ Active Recall & Spaced Repetition: {{topic}}
+# Active Recall & Spaced Repetition: {{topic}}
 
 > [!TIP] How to Use This Quiz
 > 1. Read each question and answer it out loud or on paper before opening the solution.
@@ -16,7 +16,7 @@ mastery_score: 0% # 0% - 100%
 
 ---
 
-## 🎯 Conceptual & Definitional Questions
+## Conceptual & Definitional Questions
 
 ### Q1: [Concept / Definition Question]
 - **Difficulty**: 🟡 Medium
@@ -47,7 +47,7 @@ Step-by-step reasoning.
 
 ---
 
-## 💻 Computational / Problem-Solving Drill
+## Computational / Problem-Solving Drill
 
 ### Q3: [Problem / Code / Math Prompt]
 ```python

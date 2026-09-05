@@ -58,13 +58,13 @@ SORT date ASC
 ## Core concept graph
 
 - **Foundational Concepts**:
-  - [[Sample-Core-Concept]] — Fundamental abstraction and execution models
+  - [[Sample-Core-Concept]], Fundamental abstraction and execution models
 
 ---
 
 ## Assignments and problem sets
 
-- [ ] [[SAMPLE1010-HW-01]] — Foundations and Complexity Analysis
+- [ ] [[SAMPLE1010-HW-01]], Foundations and Complexity Analysis
 
 ```dataview
 TABLE due_date as "Due Date", status as "Status", priority as "Priority"

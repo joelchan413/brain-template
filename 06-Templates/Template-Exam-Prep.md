@@ -8,7 +8,7 @@ target_score: 95%
 mastery_status: in_progress # in_progress | ready | mastered
 ---
 
-# 🎯 Exam Prep Kit: {{course_code}} {{exam_name}}
+# Exam Prep Kit: {{course_code}} {{exam_name}}
 
 > [!IMPORTANT] Exam Details
 > **Date & Time**: {{exam_date}} | **Location**: {{location}}
@@ -17,7 +17,7 @@ mastery_status: in_progress # in_progress | ready | mastered
 
 ---
 
-## ⏳ Spaced Repetition Study Blocks (Synced with Google Calendar)
+## Spaced Repetition Study Blocks (Synced with Google Calendar)
 - [ ] **Phase 1 ($D-14$ / {{d_minus_14}})**: Scope Audit & Concept Mapping (60 min)
 - [ ] **Phase 2 ($D-7$ / {{d_minus_7}})**: Deep Dive & Flashcard Generation (90 min)
 - [ ] **Phase 3 ($D-3$ / {{d_minus_3}})**: Timed Active Recall & Practice Problems (120 min)
@@ -25,7 +25,7 @@ mastery_status: in_progress # in_progress | ready | mastered
 
 ---
 
-## 🧠 High-Yield Concept Checklist
+## High-Yield Concept Checklist
 | Status | Concept Note | Key Invariant / Formula | Confidence |
 | :-: | :--- | :--- | :-: |
 | ⏳ | [[Concept-1]] | Core rule or invariant | 🔴 Low |
@@ -34,13 +34,13 @@ mastery_status: in_progress # in_progress | ready | mastered
 
 ---
 
-## 🧪 Practice Quizzes & Problem Sets
+## Practice Quizzes & Problem Sets
 - [[Quiz-{{course_code}}-Midterm-Review]]
 - [[Problem-Set-Past-Exams]]
 
 ---
 
-## ⚠️ Mistake Journal (Review $D-1$)
+## ️ Mistake Journal (Review $D-1$)
 > [!CAUTION] Avoid These Pitfalls During the Exam
 > 1. 
 > 2. 
@@ -48,6 +48,6 @@ mastery_status: in_progress # in_progress | ready | mastered
 
 ---
 
-## 📄 Master Formula & Cheat Sheet
+## Master Formula & Cheat Sheet
 - [[Formula-Sheet-Master]]
 - [[Formula-Sheet-{{course_code}}]]

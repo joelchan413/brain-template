@@ -6,28 +6,28 @@ tags: [daily, study-log, iowa-state]
 courses_today: []
 ---
 
-# 📅 {{date}} — Daily Plan & Study Log
+# {{date}}, Daily Plan & Study Log
 
 > [!INFO] Day Overview
 > **Focus for Today**: 
 
 ---
 
-## 🎯 Top Priorities
+## Top Priorities
 - [ ] 
 - [ ] 
 - [ ] 
 
 ---
 
-## 🏛️ Google Calendar Schedule & Locations
+## ️ Google Calendar Schedule & Locations
 | Time | Course / Event | Location | Note Link | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | {{start_time}} - {{end_time}} | {{course_code}} | {{location}} | [[{{lecture_note_link}}]] | ⏳ Scheduled |
 
 ---
 
-## ⏱️ Time-Blocked Study Sessions
+## ️ Time-Blocked Study Sessions
 | Window | Course / Topic | Objectives & Tasks | Completed? |
 | :--- | :--- | :--- | :-: |
 | 10:00 - 11:30 | [[COMS3110-Overview]] | Asymptotic Analysis practice problems | [ ] |
@@ -35,18 +35,18 @@ courses_today: []
 
 ---
 
-## 📝 Quick Capture & In-Class Notes
+## Quick Capture & In-Class Notes
 - 
 
 ---
 
-## 💡 Breakthroughs & Concepts Mastered
+## Breakthroughs & Concepts Mastered
 > [!TIP] Key Learnings
 > - 
 
 ---
 
-## 📡 Daily Note Activity (Dynamic Dataview)
+## Daily Note Activity (Dynamic Dataview)
 ```dataview
 TABLE file.folder as "Folder", file.mtime as "Modified Time"
 FROM ""
@@ -56,7 +56,7 @@ SORT file.mtime DESC
 
 ---
 
-## 🔄 Daily Reflection & Shutdown
+## Daily Reflection & Shutdown
 - **What went well:** 
 - **What got delayed:** 
 - **Tomorrow's main priority:** 

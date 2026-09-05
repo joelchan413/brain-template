@@ -16,7 +16,7 @@ Welcome to the `brain-template` workspace. This repository is an Obsidian-compat
 
 ## Available Workspace Skills
 
-When working in this vault, leverage these specialized skills located in `.agents/skills/`:
+When working in this vault, use these specialized skills located in `.agents/skills/`:
 - **`startup`**: Morning briefing and session bootstrapper that checks Google Calendar schedules, verifies today's daily note, audits 14-day upcoming deadlines, and sets the session focus. (Triggered via `startup`, `/startup`, `start session`).
 - **`shutdown`**: Evening wrap-up and session shutdown that audits completed tasks, records daily reflections, extracts new Anki flashcards, checks tomorrow's Google Calendar schedule, and scaffolds tomorrow's daily note. (Triggered via `finished for the day`, `done for today`, `wrap up`, `shutdown`, `/shutdown`, `end session`).
 - **`teach`**: Interactive personal tutor that builds stateful, multi-session learning courses with interactive HTML lessons, self-grading quizzes, learning records (ZPD tracking), and cheat sheets. (Automatically triggered whenever asking to learn/be taught a topic).
@@ -40,7 +40,7 @@ When working in this vault, leverage these specialized skills located in `.agent
 4. **No Auto-Generated / Speculative Lecture Notes**: NEVER create, pre-populate, or synthesize lecture notes for any class unless the user explicitly provides raw notes, recordings, slides, or explicitly requests the capture/review of that specific lecture. Course overviews, daily notes, and schedules must only list upcoming lecture topics as plain text or table entries without creating speculative lecture files.
 5. **Unslop Writing Standards (Mandatory for ALL Responses & Vault Notes)**:
    - **No decorative emojis**: Never use emojis in headings, titles, tables, or list items (`# 📝`, `## 🎯`, etc.).
-   - **No em dashes**: Never use em dashes (`—` or `--`). Use periods or commas.
+   - **No em dashes**: Never use em dashes (`, ` or `--`). Use periods or commas.
    - **Sentence case headings**: Headings must use standard sentence case, not title case.
    - **No AI vocabulary**: Ban words like *crucial*, *delve*, *foster*, *leverage*, *paramount*, *pivotal*, *profound*, *showcase*, *tapestry*, *testament*, *underscore*, *utilize*, *vital*, and *nuanced*. Use plain, concrete words.
    - **No inline-header restatements**: Do not use bold labels that just restate the sentence (`**Feature:** This feature...`). Write direct prose.
