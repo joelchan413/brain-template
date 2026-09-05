@@ -1,0 +1,5 @@
+# Python requirements for Brain PKM Vault automation
+# The core scripts (vault_cli.py, anki_exporter.py, weekly_review.py) run using standard library Python 3.10+
+# Optional packages for lecture document processing:
+pypdf>=4.0.0
+python-pptx>=0.6.21

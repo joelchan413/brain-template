@@ -1,0 +1,26 @@
+# Obsidian user-specific workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Agent and CLI generated files
+.system_generated/
+.gemini/
+.antigravity/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sensitive environment variables
+.env
+.env.local
