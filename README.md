@@ -67,7 +67,7 @@ brain-template/
 Clone this repository to your local drive where you want your personal vault to live:
 
 ```bash
-git clone https://github.com/your-username/brain-template.git my-brain
+git clone https://github.com/joelchan413/brain-template.git my-brain
 cd my-brain
 ```
 
